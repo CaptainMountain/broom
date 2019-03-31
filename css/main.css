@@ -869,7 +869,7 @@ input:focus ~ .bar:after {
 
 .sreviews {
   color: white;
-  max-width: 600px;
+  max-width: 500px;
   display: block;
   margin-left: auto;
   margin-right: auto;
