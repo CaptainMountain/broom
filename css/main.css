@@ -649,13 +649,10 @@ ul li {
 
 
 #trailer {
-
 opacity: 0.7;
-
 }
 
 #trailer > video {
-
 position: absolute;
   top: 0;
   left: 0;
