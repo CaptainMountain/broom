@@ -86,7 +86,9 @@
   height: 1.75em;
 }
 .modal1 .modal1-content {
-
+ width: 100%;
+ margin-left: 25px;
+ margin-right: 25px;
   opacity: 0;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -150,6 +152,7 @@
 
 @media only screen and (min-width: 40em) {
   .modal2-overlay {
+
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -183,6 +186,7 @@
  * Modal
  */
 .modal2 {
+
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -192,13 +196,11 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  position: relative;
+  position: absolute;
   margin: 0 auto;
   background-color: #fff;
-  width: 600px;
-  max-width: 75rem;
-  min-height: 20rem;
-  padding: 1rem;
+  width: 550px;
+  height: 500px;
   border-radius: 3px;
   opacity: 0;
   overflow-y: auto;
@@ -211,7 +213,11 @@
   -webkit-transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
   transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
 }
-.modal2 .close-modal2{
+
+
+
+
+.modal2 .close-modal2 {
   position: absolute;
   cursor: pointer;
   top: 5px;
@@ -231,6 +237,7 @@
   height: 1.75em;
 }
 .modal2 .modal2-content {
+ 
   opacity: 0;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;
@@ -279,11 +286,6 @@
     right: 20px !important;
   }
 }
-
-
-
-
-
 
 
 

@@ -83,7 +83,7 @@ a:hover, a:focus {
   transition: background-color, color, 0.3s; }
 
 body {
-  font-family: "Raleway", sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   color: #6c7279; }
 
@@ -301,7 +301,7 @@ ul li {
   padding-top: 25%; }
   .banner-text h1 {
     color: #fff;
-    font-family: "Open Sans", sans-serif;
+    font-family: 'Montserrat', sans-serif;
     font-weight: 700;
     text-transform: uppercase; }
   .banner-text p {
@@ -338,8 +338,8 @@ ul li {
 	$Works
 ========================================================================== */
 #works{
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 50px;
+  margin-right: 50px;
 }
 
 #photoprop{
@@ -562,7 +562,7 @@ ul li {
 	Font Icon (http://www.elegantthemes.com/blog/freebie-of-the-week/free-line-style-icons)
 ========================================================================== */
 @font-face {
-  font-family: "elegant-theme-line";
+  font-family: 'Montserrat', sans-serif;
   src: url('../fonts/elegant-theme-line.ttf?1439850014') format('truetype'), url('../fonts/elegant-theme-line.eot?1439850014') format('embedded-opentype'), url('../fonts/elegant-theme-line.svg?1439850014') format('svg'), url('../fonts/elegant-theme-line.woff?1439850014') format('woff'); }
 
 
@@ -787,9 +787,13 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d0f734', end
   opacity: 1;
 }
 
+textarea:focus, input:focus{
+outline: none;
 
+}
 
 .group {
+  
   position: relative;
   margin-bottom: 30px;
 }
@@ -822,7 +826,7 @@ label {
 input:focus ~ label, input:valid ~ label {
   top: -15px;
   font-size: 14px;
-  color: #5264AE;
+  color: #FF0081;
 }
 
 
@@ -838,7 +842,7 @@ input:focus ~ label, input:valid ~ label {
   width: 0;
   bottom: 0;
   position: absolute;
-  background: #5264AE;
+  background: #FF0081;
   transition: 0.2s ease all;
   -moz-transition: 0.2s ease all;
   -webkit-transition: 0.2s ease all;
@@ -856,9 +860,7 @@ input:focus ~ .bar:after {
   width: 50%;
 }
 
-#checkbox{
 
-}
 
 
 
@@ -966,5 +968,9 @@ input:focus ~ .bar:after {
   border-color: #FFFFFF;
   box-shadow: 0 0 60px rgba(0,0,0,0.2);
 }
+
+
+
+
 
 
